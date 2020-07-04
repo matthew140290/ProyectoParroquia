@@ -1,0 +1,54 @@
+:root{
+    --colorheader: #000D13;
+    --colorFuente: #0085d1; 
+}
+body{
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--colorheader);
+    transition: 2s;
+    
+}
+
+.header img{
+    margin-left: 30px;
+}
+
+.items{
+    display: flex;
+    
+}
+
+.items li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.items:last-child{
+    margin-right: 30px;
+}
+
+.items li a{
+    color: var(--colorFuente);
+    text-decoration: none;
+    
+}
+
+.sidebar h3, .lastnews{
+    padding-left: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 7px 10px 0 10px;
+}
+
+.sidebar{
+    box-sizing: border-box;
+
+}
+

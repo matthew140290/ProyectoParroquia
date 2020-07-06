@@ -7,8 +7,12 @@
     gap:20px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 550px ;
-    grid-template-areas: "carousel carousel carousel sidebar"
-                         "arancel  arancel  arancel  arancel";
+    grid-template-areas: "carousel     carousel     carousel sidebar"
+                         "arancel      arancel      arancel  cabecera"
+                         "celebrations celebrations despacho despacho"
+                         "curia        curia        curia    curia"
+                         "consideraciones consideraciones consideraciones consideraciones"
+                         "footer footer footer footer";
 }
 
 .contenedor .carousel{
@@ -27,10 +31,29 @@
 
 .contenedor .arancel{
     grid-area: arancel;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 30px;
 }
 
+.contenedor .celebrations{
+    grid-area: celebrations;
+}
 
+.contenedor .despacho{
+    grid-area: despacho;
+}
+
+.contenedor .curia{
+    grid-area: curia;
+}
+
+.contenedor .consideraciones{
+    grid-area: consideraciones;
+    margin: 0 0 0 50px;
+    background: peachpuff;
+    font-size: 11px;
+    width: 1270px;
+    
+}
 
 
 /********Carousel*********/

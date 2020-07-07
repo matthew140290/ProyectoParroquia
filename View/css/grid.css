@@ -1,17 +1,15 @@
 :root{
     --colorheader: #000D13;
-    --colorFuente: #0085d1; 
+    --colorFuente: #ffffff; 
 }
 .contenedor{
     display: grid;
-    gap:20px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 550px ;
     grid-template-areas: "carousel     carousel     carousel sidebar"
-                         "arancel      arancel      arancel  cabecera"
-                         "celebrations celebrations despacho despacho"
-                         "curia        curia        curia    curia"
-                         "consideraciones consideraciones consideraciones consideraciones"
+                         "container-table container-table container-table container-table"
+                         "schedule schedule schedule schedule"                     
+
                          "footer footer footer footer";
 }
 
@@ -27,6 +25,16 @@
     grid-area: sidebar;
     margin: 10px 10px 0 0;
     
+}
+
+.contenedor .container-table{
+    grid-area: container-table;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor .schedule{
+    grid-area: schedule;   
 }
 
 .contenedor .arancel{

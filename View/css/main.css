@@ -1,6 +1,6 @@
 :root{
     --colorheader: #000D13;
-    --colorFuente: #0085d1; 
+    --colorFuente: #f5f6f6; 
 }
 body{
     font-family: 'Comfortaa', cursive, sans-serif;
@@ -53,6 +53,12 @@ hr{
 .sidebar{
     box-sizing: border-box;
 
+}
+
+.container-table h2{
+    background: aqua;
+    padding: 8px 15px;
+    color: azure;
 }
 
 .arancel{
@@ -115,8 +121,8 @@ hr{
     
 }
 
-.data p:hover{
-    color: var(--colorFuente);
+.data p:hover, .menu-footer a:hover, .menu-footer2 a:hover{
+    color: teal;
 }
 
 .menu-footer a, .menu-footer2 a{
@@ -130,9 +136,7 @@ hr{
     margin-bottom: 10px;
 }
 
-.menu-footer a:hover, .menu-footer2 a:hover{
-    color: var(--colorFuente);
-}
+
 
 .copyright{
     background: #192F4C ;
@@ -148,3 +152,10 @@ hr{
     align-items: center;
     color: white;
 }
+
+.schedule .day1, .day2, .day3{
+    display: flex;
+    justify-content: center;
+}
+
+/*****************tabla*************************/

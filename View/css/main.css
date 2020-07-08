@@ -42,6 +42,9 @@ hr{
     text-decoration: none;
     
 }
+.items li a:hover{
+    color: teal;
+}
 
 .sidebar h3, .lastnews{
     padding-left: 10px;
@@ -157,5 +160,37 @@ hr{
     display: flex;
     justify-content: center;
 }
+
+.schedule{
+    border: 1px solid black;
+    margin: -39px 160px 50px 160px;
+    padding-top: 36px;
+    z-index: -5;
+}
+
+.day1 p, .day2 p, .day3 p{
+    margin-right: 26px;
+
+}
+.day2, .day3{
+    margin-left: 63px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: rgb(248, 1, 1);
+}
+
+.redes a:hover{
+    color: rgb(117, 8, 26);
+}
+
+.redes i{
+    font-size: 30px;
+    color: #3B5998;
+    margin-right: 10px;
+}
+
+
 
 /*****************tabla*************************/

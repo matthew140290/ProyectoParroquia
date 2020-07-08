@@ -8,7 +8,8 @@
     grid-template-rows: 550px ;
     grid-template-areas: "carousel     carousel     carousel sidebar"
                          "container-table container-table container-table container-table"
-                         "schedule schedule schedule schedule"                     
+                         "schedule schedule schedule schedule"
+                         "redes redes redes redes"                     
 
                          "footer footer footer footer";
 }
@@ -35,6 +36,13 @@
 
 .contenedor .schedule{
     grid-area: schedule;   
+}
+
+.contenedor .redes{
+    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedor .arancel{

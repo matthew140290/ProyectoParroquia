@@ -1,0 +1,13 @@
+h1{
+    margin: 15px 426px 0 0;
+}
+.arancel{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.contenedor2 li{
+    border-bottom: 1px dashed rgb(163, 163, 146);
+}

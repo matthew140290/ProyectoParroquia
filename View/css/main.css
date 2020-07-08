@@ -78,14 +78,14 @@ hr{
 
 
 .contenedor2{
-    width: 700px;
-    margin-left: 50px;
-    background: beige;
-    padding: 20px 150px 20px 20px;
+    
+    margin: 0 50px;
+    background: rgb(207, 207, 178);
+    padding: 40px;
 }
 
 
-.contenedor h3{
+.contenedor2 h3{
     background-color: var(--colorheader);
     display: inline-block;
     color: whitesmoke;
@@ -94,7 +94,7 @@ hr{
 }
 
 .curia h3, .celebrations h3{
-    padding-right: 100px;
+    padding-right: 90px;
 }
 
 .consideraciones h6{
@@ -102,6 +102,12 @@ hr{
     margin-left: 10px;
 }
 
+.consideraciones{
+    margin: 10px 50px;
+    font-size: 12px;
+    background: rgb(238, 226, 203);
+    padding: 10px;
+}
 .footer{
   
     height: 200px;

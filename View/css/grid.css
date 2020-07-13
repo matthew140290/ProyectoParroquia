@@ -1,8 +1,9 @@
 :root{
-    --colorheader: #000D13;
+    --colorheader: #023e7d;
     --colorFuente: #ffffff; 
 }
 .contenedor{
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 550px ;
@@ -25,7 +26,7 @@
 .contenedor .sidebar{
     background: var(--colorheader);
     grid-area: sidebar;
-    margin: 10px 10px 0 0;
+    margin: 10px 0 0 0;
     
 }
 
@@ -59,6 +60,7 @@
 #slider-container{
     position: relative;
     overflow: hidden;
+   
 }
 
 .center-y{

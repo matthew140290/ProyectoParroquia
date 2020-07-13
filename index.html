@@ -16,14 +16,14 @@
   <body>
       
     <header class="header">
-      <img src="View/img/LogoWorldAzulSINfONDO.png" alt="Logo Principal" width="100">
-      <nav class="menu">
+      <nav id="navbar" class="navbar">
+        <img src="View/img/LogoWorldAzulSINfONDO.png" alt="Logo Principal" width="100">
         <ul class="items">
-          <li><a href="">Inicio</a></li>
+          <li><a href="index.html">Inicio</a></li>
           <li><a href="View/Itinerario.html">Ofrendas</a></li>
           <li><a href="">Noticias Parroquiales</a></li>
-          <li><a href="">Intenciones</a></li>
-          <li><a href="">Iniciar Sesión</a></li>
+          <li><a href="">Agenda intención</a></li>
+          <li><a class="cta" href="#">Iniciar Sesión</a></li>
         </ul>
       </nav>
     </header>
@@ -95,30 +95,54 @@
       <p>Desarrollador: <span>Matthew ruiz Kidman</span></p>
     </div>
     <div class="menu-footer">
-      <nav >
+      <div >
         <ul >
           <li><a href="">Inicio</a></li>
           <li><a href="View/Itinerario.html">Itinerario Eucarístico</a></li>
           <li><a href="">Noticias Parroquiales</a></li>
           <li><a href="">Intenciones</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
     <div class="menu-footer2">
-      <nav class="menu-footer">
+      <div class="menu-footer">
         <ul class="items-footer">
           <li><a href="">Nuestras Politicas</a></li>
           <li><a href="">Protocolos de Bioseguridad</a></li>
           <li><a href="">Acerca de Nosotros</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
   </footer>
     <div class="copyright">
       <p>Copy Right&copy; Colneting Soluciones Sabanalrga</p>
     </div>
   
+
+
+    <!--******************* modal******************* -->
+      <div class="modal-container">
+        <div class="modal modal-close">
+          <p class="close">X</p>
+          <div class="church-name">
+            <P>PARROQUIA</P>
+            <P class="san-a">SAN ANTONIO DE PADUA</P>
+          </div>
+          <img src="View/img/iglesiaC.svg" alt="imagen modal">
+          <div class="form">
+            <p class="word">Inicia Sesión</p>
+            <p class="word">¡Solo puede inciar sesion el personal de la parroquia!</p>
+            <input class="estilo" type="text" name="user" id="user" placeholder="Ingresa Usuario"> 
+            <input class="estilo" type="password" name="pass" id="pass" placeholder="Ingresa Contraseña"> 
+            <input type="submit" value="ingresar" name="ingresar" class="btn">
+  
+          </div>
+        </div>
+      </div>
+
  <script src="view/JS/app.js"></script>
+ <script src="view/JS/main.js"></script>
+ <script src="view/JS/modal.js"></script>
 
   </body>
 </html>

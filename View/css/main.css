@@ -1,9 +1,13 @@
 :root{
-    --colorheader: #03045e;
-    --colorFuente: #f5f6f6; 
+    --colorheader: #05668d;
+    --colorFuente: #f5f6f6;
+    --colorbotones: #02c39a;
+    --colorsidebar: #028090;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 body{
-    font-family: 'Comfortaa', cursive, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr{
@@ -12,7 +16,7 @@ hr{
 
 nav{
     font-family: 'open sans';
-    background: #264653;
+    background: var(--colorheader);
     width: 100%;
     height:80px;
     display: flex;
@@ -55,7 +59,7 @@ nav{
 
 .header .cta{
     /* display: inline-block; */
-    background: #00b4d8;
+    background: var(--colorbotones);
     padding: 10px;
     border-radius: 10px;
 }
@@ -67,7 +71,7 @@ nav{
 
 .sidebar h3, .lastnews{
     padding-left: 10px;
-    color: white;
+    color: var(--colorFuente);
     border-bottom: 1px solid white;
     margin: 7px 10px 0 10px;
 }
@@ -164,7 +168,7 @@ nav{
 
 
 .copyright{
-    background: #192F4C ;
+    background: var(--colorsidebar) ;
     text-align: center;
    font-size: 10px;  
 }
@@ -175,7 +179,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--colorFuente);
 }
 
 .schedule .day1, .day2, .day3{

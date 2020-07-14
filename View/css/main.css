@@ -360,6 +360,28 @@ nav{
 
 }
 
+/**********************boton agendar intencion******************/
+
+.contenedor .sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.agendar button{
+    background: var(--colorbotones);
+    border-radius: 10px;
+    border-style: none;
+    padding: 8px;
+} 
+
+.agendar a{
+    text-decoration: none;
+    color: var(--colorFuente);
+    font-size: 15px;
+}
+
 @media screen and (max-width:1000px){
     
 
